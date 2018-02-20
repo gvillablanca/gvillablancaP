@@ -7,11 +7,20 @@
  #1F2225 : header y footer;
  #202D2D : background total;
 */
+.margin-top{
+  margin-top: 4%;
+  margin-left: 7%;
+}
+.margin-botom{
+  margin-bottom:4%;
+}
 body{
-
+  font-family: 'Varela Round', sans-serif;
 }
 .navbar-default .navbar-nav > li > a{
   color :#32F7BD;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
 }
 .navbar-default .navbar-brand{
   color :#32F7BD;
@@ -27,6 +36,7 @@ body{
 }
 p{
   text-align: justify;
+  font-size: 18px;
 }
 #about{
   padding: 2%;
@@ -40,23 +50,33 @@ section{
   background-color:  #202D2D;
   color:#32F7BD ;
 }
+.description{
+  margin-top: 5%;
+  margin-right: 4%;
+}
 mark{
   background-color: #3B3F43;
   color:#256051;
 }
 .img-circle{
-  width: 100%;
+  width: 85%;
   border:3px solid #32F7BD;
   margin-bottom: 10%;
 }
-.progress-bar{
-  border:1px solid #32F7BD;
-  background-color:#FF2B57; 
-  color:#32F7BD;
+.mencion{
+  width: 15%;
+  border:3px solid #32F7BD;
+  margin-bottom: 10%;
+  margin-top: 4%;
 }
-.progress{
-  background-color:  #256051;
-  border:1px solid #32F7BD;
+i{
+  font-size: 100px;
+  padding: 4%;
+  margin:4%;
+  text-align: center;
+}
+i:hover{
+  color:#FF2B57;
 }
 .project{
   
