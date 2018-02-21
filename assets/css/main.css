@@ -74,17 +74,27 @@ i{
   padding: 4%;
   margin:4%;
   text-align: center;
+  display: inline-block;
 }
-i:hover{
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+  color:#FF2B57;
+}
+i:hover, label:hover{
   color:#FF2B57;
 }
 .project{
   
   margin-bottom: 2%;
 }
-.btn-project-group{
-  
+.img-project{
+  width:300px;
+  height: 400px; 
+}
+.btn-project-group{  
   margin-bottom: 10%;
+}
+.img-project:hover{
+  border:6px solid #FF2B57;
 }
 .btn-project{
   border:1px solid #32F7BD;
@@ -92,6 +102,11 @@ i:hover{
   color:#32F7BD;
   width: 39%;
   margin-left: 7%;
+}
+.btn-default:hover{
+  border:1px solid #FF2B57;
+  background-color: #256051;
+  color:#FF2B57;
 }
 .center-block{
   margin-top: 4%;
