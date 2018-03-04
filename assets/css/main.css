@@ -89,12 +89,14 @@ i:hover, label:hover{
 .img-project{
   width:300px;
   height: 400px; 
+  filter: brightness(80%) blur(0.5px);
 }
 .btn-project-group{  
   margin-bottom: 10%;
 }
 .img-project:hover{
   border:6px solid #FF2B57;
+  filter: brightness(20%) blur(1px);
 }
 .btn-project{
   border:1px solid #32F7BD;
@@ -122,10 +124,25 @@ i:hover, label:hover{
 #contact{
   padding-bottom: 6%;
 }
+.contact-icon{
+  font-size: 150px;
+  margin-bottom:18%;
+  margin-left: 5%;
+}
+.contact-icon:hover{
+  color:#FF2B57;
+}
+.margin-icon{
+  margin-left: 19%;
+}
 footer{
   background-color: #1F2225;
   border:none;
   color :#32F7BD;
   padding-top: 2%;
   padding-bottom: 2%; 
+}
+.description-project{
+  width:300px;
+  height: 400px;
 }
