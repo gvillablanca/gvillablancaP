@@ -6,6 +6,7 @@
   <title>Genoveva Villablanca</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"> 
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
@@ -38,8 +39,10 @@
   </header>
 
   <!-- s1 -->
+  <h1>Girl of the TECHNOLOGY!!!</h1>
   <section id="home" class="img-head">
     <!-- backgrgound home -->
+
   </section>
   <!-- s2 -->
   <section id="about">
@@ -63,7 +66,7 @@
           <br>
           <br>
           <h3>Menciones Laboratoria</h3>
-          <img src="" alt="" class="img-circle mencion">
+          <img src="assets/img/proactiva.png" alt="" class="img-circle mencion font-white">
         </div>
       </div>
     </div>
@@ -149,51 +152,112 @@
           <div class="row">
             <div class="col-lg-12 col-xs-12 col-sm-12 project">
               <!-- descripcion del proyecto -->
-              <div class="description-project">
-                <p></p>
-              </div>
+                <!-- Modal -->
+                <div id="proyect1" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Easy-vreco</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p>Proyecto desktop y mobile que permite trazar rutas y mostrar la ubicación actual, se uso: </p><br>
+                        <ul>
+                          <li>Boostrap</li>
+                          <li>API google maps</li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default btn-contact" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               <!--proyecto -->
-              <img src="assets/img/easyvreco.png" alt="" class="img-thumbnail center-block img-project">
+              <img src="assets/img/easyvreco.png" alt="" class="img-thumbnail center-block img-project" data-toggle="modal" data-target="#proyect1">
             </div>            
           </div>
           <div class="row">
             <div class="col-lg-12 col-xs-12 col-sm-12 btn-project-group">
-             <button type="button" class="btn btn-default btn-project demo1">DEMO</button>
-              <button type="button" class="btn btn-default btn-project git1">GITHUB</button> 
+             <button type="button" class="btn btn-default btn-project demo1" onclick="window.location.href='https://gvillablanca.github.io/Easy-vreco-2.0/'">DEMO</button>
+              <button type="button" class="btn btn-default btn-project git1" onclick="window.location.href='https://github.com/gvillablanca/Easy-vreco-2.0'">GITHUB</button> 
+            </div>            
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 ">
+          <div class="row">
+            <div class="col-lg-12 col-xs-12 col-sm-12 project">
+                <!-- descripcion del proyecto -->
+                <!-- Modal -->
+                <div id="proyect2" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Quiz</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p>Proyecto mobile que permite jugar quiz en modo opción multiple o verdadero o falso, se uso: </p><br>
+                        <ul>
+                          <li>Boostrap</li>
+                          <li>API opentdb.com</li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default btn-contact" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!--proyecto -->
+              <img src="assets/img/trivia.png" alt="" class="img-thumbnail center-block img-project" data-toggle="modal" data-target="#proyect2">
+            </div>            
+          </div>
+          <div class="row">
+            <div class="col-lg-12 col-xs-12 col-sm-12 btn-project-group">
+             <button type="button" class="btn btn-default btn-project demo2" onclick="window.location.href='https://gvillablanca.github.io/trivia/'">DEMO</button>
+              <button type="button" class="btn btn-default btn-project git2" onclick="window.location.href='https://github.com/gvillablanca/trivia'">GITHUB</button> 
             </div>            
           </div>
         </div>
         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 ">
           <div class="row">
             <div class="col-lg-12 col-xs-12 col-sm-12 project">
-              <div class="description-project">
-                <p></p>
-              </div>
+               <!-- descripcion del proyecto -->
+                <!-- Modal -->
+                <div id="proyect3" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Filter-Library</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p>Libreria desarrollada en VanillaJS que aplica filtro a imagenes, se uso: </p><br>
+                        <ul>
+                          <li>Boostrap</li>
+                          <li>NPM</li>
+                          <li>VanillaJS</li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default btn-contact" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               <!--proyecto -->
-              <img src="assets/img/filter.png" alt="" class="img-thumbnail center-block img-project">
+              <img src="assets/img/filter.png" alt="" class="img-thumbnail center-block img-project" data-toggle="modal" data-target="#proyect3">
             </div>            
           </div>
           <div class="row">
             <div class="col-lg-12 col-xs-12 col-sm-12 btn-project-group">
-             <button type="button" class="btn btn-default btn-project demo2">DEMO</button>
-              <button type="button" class="btn btn-default btn-project git2">GITHUB</button> 
-            </div>            
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 ">
-          <div class="row">
-            <div class="col-lg-12 col-xs-12 col-sm-12 project">
-              <div class="description-project">
-                <p></p>
-              </div>
-              <!--proyecto -->
-              <img src="assets/img/foodmap.png" alt="" class="img-thumbnail center-block img-project">
-            </div>            
-          </div>
-          <div class="row">
-            <div class="col-lg-12 col-xs-12 col-sm-12 btn-project-group">
-             <button type="button" class="btn btn-default btn-project demo3">DEMO</button>
-              <button type="button" class="btn btn-default btn-project git3">GITHUB</button> 
+             <button type="button" class="btn btn-default btn-project demo3" onclick="window.location.href='https://gvillablanca.github.io/filter-library/'">DEMO</button>
+              <button type="button" class="btn btn-default btn-project git3" onclick="window.location.href='https://github.com/gvillablanca/filter-library'">GITHUB</button> 
             </div>            
           </div>
         </div>
@@ -202,51 +266,110 @@
         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 ">
           <div class="row">
             <div class="col-lg-12 col-xs-12 col-sm-12 project">
-              <div class="description-project">
-                <p></p>
-              </div>              
+                <!-- descripcion del proyecto -->
+                <!-- Modal -->
+                <div id="proyect4" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Labcar</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p>Web desktop y mobile que muestra el modelamiento con bootstrap y modales, se uso: </p><br>
+                        <ul>
+                          <li>Boostrap</li>
+                          <li>Jquery</li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default btn-contact" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>           
               <!--proyecto -->
-              <img src="assets/img/insta drag and drop.png" class="img-thumbnail center-block img-project">             
+              <img src="assets/img/labcar.png" class="img-thumbnail center-block img-project" data-toggle="modal" data-target="#proyect4">             
             </div>            
           </div>
           <div class="row">
             <div class="col-lg-12 col-xs-12 col-sm-12 btn-project-group">
-             <button type="button" class="btn btn-default btn-project demo4">DEMO</button>
-              <button type="button" class="btn btn-default btn-project git4">GITHUB</button> 
+             <button type="button" class="btn btn-default btn-project demo4" onclick="window.location.href='https://gvillablanca.github.io/labcar/'">DEMO</button>
+              <button type="button" class="btn btn-default btn-project git4" onclick="window.location.href='https://github.com/gvillablanca/labcar'">GITHUB</button> 
             </div>            
           </div>
         </div>
         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 ">
           <div class="row">
             <div class="col-lg-12 col-xs-12 col-sm-12 project">
-              <div class="description-project">
-                <p></p>
-              </div>
+               <!-- descripcion del proyecto -->
+                <!-- Modal -->
+                <div id="proyect5" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Foodmap</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p>Web mobile, implementado con un mapa y un input que filtra entre las opciones dadas, se uso: </p><br>
+                        <ul>
+                          <li>Boostrap</li>
+                          <li>Jquery</li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default btn-contact" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>         
               <!--proyecto -->
-              <img src="assets/img/oraculo-api.png" alt="" class="img-thumbnail center-block img-project">
+              <img src="assets/img/foodmap.png" alt="" class="img-thumbnail center-block img-project" data-toggle="modal" data-target="#proyect5">
             </div>            
           </div>
           <div class="row">
             <div class="col-lg-12 col-xs-12 col-sm-12  btn-project-group">
-             <button type="button" class="btn btn-default btn-project demo5">DEMO</button>
-              <button type="button" class="btn btn-default btn-project git5">GITHUB</button> 
+             <button type="button" class="btn btn-default btn-project demo5" onclick="window.location.href='https://gvillablanca.github.io/foodmap/'">DEMO</button>
+              <button type="button" class="btn btn-default btn-project git5" onclick="window.location.href='https://github.com/gvillablanca/foodmap'">GITHUB</button> 
             </div>            
           </div>
         </div>
         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 ">
           <div class="row">
             <div class="col-lg-12 col-xs-12 col-sm-12 project">
-              <div class="description-project">
-                <p></p>
-              </div>
+                <!-- descripcion del proyecto -->
+                <!-- Modal -->
+                <div id="proyect6" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">I love panda</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p>Web desktop, muestra el uso de grillas y modelamiento con materialize, se uso: </p><br>
+                        <ul>
+                          <li>Materialize</li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default btn-contact" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               <!--proyecto -->
-              <img src="assets/img/trivia.png" alt="" class="img-thumbnail center-block img-project">
+              <img src="assets/img/ilovepanda.png" alt="" class="img-thumbnail center-block img-project" data-toggle="modal" data-target="#proyect6">
             </div>            
           </div>
           <div class="row">
             <div class="col-lg-12 col-xs-12 col-sm-12 btn-project-group">
-             <button type="button" class="btn btn-default btn-project demo6">DEMO</button>
-              <button type="button" class="btn btn-default btn-project git6">GITHUB</button> 
+             <button type="button" class="btn btn-default btn-project demo6" onclick="window.location.href='https://gvillablanca.github.io/i-love-panda-materialize/'">DEMO</button>
+              <button type="button" class="btn btn-default btn-project git6" onclick="window.location.href='https://github.com/gvillablanca/i-love-panda-materialize'">GITHUB</button> 
             </div>            
           </div>
         </div>
@@ -265,17 +388,71 @@
         <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 project">
           <!--celular-->
           <p class="fas fa-mobile-alt contact-icon margin-icon"></p>
-          <button type="button" class="btn btn-default btn-contact">Celular</button>
+          <button type="button" class="btn btn-default btn-contact" data-toggle="modal" data-target="#phone">Celular</button>
         </div>
+        <!-- Modal -->
+          <div id="phone" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Fono</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Celular: </p>
+                  <p>+56995254063</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default btn-project" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
         <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 project">
           <!--mail-->
           <p class="far fa-envelope contact-icon"></p>
-          <button type="button" class="btn btn-default btn-contact">E-mail</button>
+          <button type="button" class="btn btn-default btn-contact" data-toggle="modal" data-target="#mail">E-mail</button>
         </div>
+        <!-- Modal -->
+          <div id="mail" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Email</h4>
+                </div>
+                <div class="modal-body">
+                  <form action="mailto:g.villalobo.m@gmail.com" method="post" enctype="text/plain">
+                    <br>
+                    <label for="">Nombre: </label> <br>
+                    <input type="text" name="name"><br>
+                    <br>
+                    <label for="">E-mail: </label><br>
+                    <input type="text" name="mail"><br>
+                    <br>
+                    <label for="">Contenido: </label><br>
+                    <textarea name="" name="comment" id="" size="50" cols="60" rows="10"></textarea>
+                    <br><br>
+                    <input type="submit" value="Enviar" class="btn btn-default btn-project">
+                    <input type="reset" value="Limpiar" class="btn btn-default btn-project">
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default btn-project" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
         <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 project">
           <!--linkedin-->
           <p class="fab fa-linkedin-in contact-icon"></p>
-          <button type="button" class="btn btn-default btn-contact">Linkedin</button>
+          <button type="button" class="btn btn-default btn-contact" onclick="window.location.href='https://www.linkedin.com/in/genoveva-villablanca-villalobo/'">Linkedin</button>
         </div>
         <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 project">
           <!--skype-->
@@ -285,12 +462,12 @@
         <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 project">
           <!--github-->
           <p class="fab fa-github contact-icon"></p>
-          <button type="button" class="btn btn-default btn-contact">Github</button>
+          <button type="button" class="btn btn-default btn-contact" onclick="window.location.href='https://github.com/gvillablanca'">Github</button>
         </div>
         <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 project">
           <!--descargar cv-->
           <p class="far fa-file-alt contact-icon margin-icon"></p>
-          <button type="button" class="btn btn-default btn-contact">DESCARGAR CV</button>
+          <button type="button" class="btn btn-default btn-contact" onclick="window.location.href='http://download1514.mediafire.com/1u8upr32umzg/484dedmst1mzfdp/Genoveva+Villablanca+Villalobo.pdf'">DESCARGAR CV</button>
         </div>
       </div>
     </div>

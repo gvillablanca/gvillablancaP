@@ -7,6 +7,15 @@
  #1F2225 : header y footer;
  #202D2D : background total;
 */
+h1{
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 35%;
+  font-family: 'Permanent Marker', cursive;
+  color: #32F7BD;
+  z-index: 1000;
+  font-size: 80px;
+}
 .margin-top{
   margin-top: 4%;
   margin-left: 7%;
@@ -29,6 +38,10 @@ body{
   background-image: url(../../assets/img/background.png);
   padding-top: 46%;
   background-size: cover;
+  filter: brightness(80%) blur(0.5px);
+}
+.font-white{
+  background-color: white;
 }
 .navbar-default{
   background-color: #1F2225;
@@ -49,6 +62,18 @@ section{
   border-bottom: 6px solid #256051;
   background-color:  #202D2D;
   color:#32F7BD ;
+}
+.modal-content{
+  border-bottom: 6px solid #256051;
+  background-color:  #202D2D;
+  color:#32F7BD ;
+}
+input, textarea{
+  background-color: #256051;
+  border:1px solid #32F7BD;
+  color: #58D3F7;
+  border-radius: 5px;
+  padding: 1%;
 }
 .description{
   margin-top: 5%;
@@ -141,8 +166,4 @@ footer{
   color :#32F7BD;
   padding-top: 2%;
   padding-bottom: 2%; 
-}
-.description-project{
-  width:300px;
-  height: 400px;
 }
