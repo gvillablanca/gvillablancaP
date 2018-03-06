@@ -7,6 +7,9 @@
  #1F2225 : header y footer;
  #202D2D : background total;
 */
+#home-xs{
+  padding-bottom: 7%;
+}
 h1{
   position: absolute;
   margin-top: 15%;
