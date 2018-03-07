@@ -7,8 +7,63 @@
  #1F2225 : header y footer;
  #202D2D : background total;
 */
+  
+.ir-arriba{
+  margin-top: 43%;
+  display:inline-block;
+  padding:20px;
+  background:#256051;
+  font-size:20px;
+  color: #32F7BD;
+  border:1px solid #32F7BD;
+  border-radius: 15px;
+  position: fixed;
+  right: 10px;
+}
+.ir-arriba:hover{
+  display:inline-block;
+  padding:20px;
+  background:#256051;
+  font-size:20px;
+  color: #FF2B57;
+  border:1px solid #32F7BD;
+  cursor: pointer;
+}
+.ir-arriba2{
+  margin-top: 140%;
+  display:inline-block;
+  padding:15px;
+  background:#256051;
+  font-size:20px;
+  color: #32F7BD;
+  border:1px solid #32F7BD;
+  border-radius: 15px;
+  position: fixed;
+  right: 10px;
+  z-index: 100;
+}
+.left, .right{
+  color: #32F7BD; 
+}
+.left:hover, .right:hover{
+  color: #FF2B57;
+}
+.navbar-default .navbar-toggle{
+  color: #32F7BD;
+  border:1px solid #32F7BD;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #32F7BD;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+  background-color: transparent;
+}
+a{
+  color: #32F7BD;
+  text-align: left;
+}
 #home-xs{
-  padding-bottom: 7%;
+  padding-bottom: 5%;
 }
 h1{
   position: absolute;
@@ -93,6 +148,18 @@ mark{
 }
 .mencion{
   width: 15%;
+  border:3px solid #32F7BD;
+  margin-bottom: 10%;
+  margin-top: 4%;
+}
+.mencion2{
+  width: 15%;
+  border:3px solid #32F7BD;
+  margin-bottom: 10%;
+  margin-top: 4%;
+}
+.mencion2{
+  width: 30%;
   border:3px solid #32F7BD;
   margin-bottom: 10%;
   margin-top: 4%;

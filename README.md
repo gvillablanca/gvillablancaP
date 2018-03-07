@@ -18,12 +18,14 @@ Entre las funcionalidades que tiene la web esta:
 + Al presionar botones de demo direcciona a las paginas en gh-pages
 + Al presionar github redirecciona a los repositorios en github que albergan las app
 + En contacto al presionar los botones se puede:
-    1. Contactos: Muestra el número de telefono
-    2. Mail: Permite enviar un correo a mi cuenta que corresponde, abriendo la aplicacion de correo predeterminado del dispositivo
-    3. Linkedin: Redirecciona a mi cuenta de linkedin
-    4. Skype: Muestra mi información de skype
-    5. Github: Redirecciona a mi perfil de github
-    6. CV: Descarga mi curriculum vitae en un pdf
+    1. Mail: Permite enviar un correo a mi cuenta que corresponde, abriendo la aplicacion de correo predeterminado del dispositivo
+    2. Linkedin: Redirecciona a mi cuenta de linkedin
+    3. Skype: Muestra mi información de skype
+    4. Github: Redirecciona a mi perfil de github
++ Al presionar icono de curriculum, descarga curriculum version pdf
++ Incorporacion de boton volver arriba
++ Incorporación de slider en versión movil
+
 
 
 ![Prototipo web desktop](assets/img/desktop.jpg)

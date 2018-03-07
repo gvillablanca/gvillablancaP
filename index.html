@@ -23,7 +23,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#home"></a>
+            <a class="navbar-brand" href="#home">Inicio</a>
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
@@ -37,7 +37,6 @@
       </nav>
     </nav>
   </header>
-
   <!-- s1 -->
   <h1 class="hidden-xs hidden-sm">Girl of the TECHNOLOGY!!!</h1>
   <section id="home" class="img-head hidden-xs hidden-sm">
@@ -48,7 +47,10 @@
     <!-- backgrgound home -->
 
   </section>
-
+  <!-- boton volver inicio -->
+  <span class="ir-arriba glyphicon glyphicon-menu-up hidden-sm hidden-xs"></span>
+  <!-- boton volver inicio movil-->
+  <span class="ir-arriba2 glyphicon glyphicon-menu-up hidden-lg hidden-md"></span>
   <!-- s2 -->
   <section id="about">
     <div class="container">
@@ -59,7 +61,8 @@
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-          <img src="assets/img/profile.jpg" alt="" class="img-circle">
+          <img src="assets/img/profile.jpg" alt="" class="img-circle hidden-xs hidden-sm">
+          <img src="assets/img/profile.jpg" alt="" class="img-circle hidden-md hidden-lg center-block">
         </div>
         <div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
           <h4>Soy Genoveva Villablanca – Front-end Junior</h4>
@@ -71,14 +74,16 @@
           <br>
           <br>
           <h3>Menciones Laboratoria</h3>
-          <img src="assets/img/proactiva.png" alt="" class="img-circle mencion font-white">
+          <img src="assets/img/proactiva.png" alt="" class="img-circle mencion font-white hidden-xs hidden-sm">
+          <img src="assets/img/proactiva.png" alt="" class="img-circle mencion2  font-white hidden-md hidden-lg">
+          <p>Mención otorgada a alumnas que sorprenden realizando más de lo que se pide.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- s3 -->
-  <section id="skill">
+  <section id="skill" class="hidden-xs hidden-sm">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
@@ -144,6 +149,63 @@
     </div>
   </section>
 
+  <!-- s3 movil-->
+    <section id="skill" class="hidden-md hidden-lg">
+      <div class="container">
+         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">            
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <i class="devicon-babel-plain margin-icon"></i>
+                </div>
+                <div class="item">
+                  <i class="devicon-bootstrap-plain margin-icon"></i>
+                </div>
+                <div class="item">
+                  <i class="devicon-css3-plain margin-icon"></i>
+                </div>
+                <div class="item">
+                  <i class="devicon-git-plain margin-icon"></i>
+                </div>
+                <div class="item">
+                  <i class="devicon-github-plain margin-icon"></i>
+                </div>
+                <div class="item">
+                  <i class="devicon-html5-plain margin-icon"></i>
+                </div>
+                <div class="item">
+                  <i class="devicon-html5-plain margin-icon"></i>
+                </div>
+                <div class="item">
+                  <i class="devicon-javascript-plain margin-icon"></i> 
+                </div>
+                <div class="item">
+                  <i class="devicon-jquery-plain margin-icon"></i>
+                </div>
+                <div class="item">
+                  <i class="devicon-mocha-plain margin-icon"></i>
+                </div>
+                <div class="item">
+                  <i class="devicon-nodejs-plain margin-icon"></i>
+                </div>
+                <div class="item">
+                  <i class="devicon-react-original margin-icon"></i>
+                </div>
+                <div class="item">
+                  <i class="devicon-sass-original margin-icon"></i>
+                </div>             
+              </div>
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+          </div>    
+      </div>
+    </section>
   <!-- s4 -->
   <section id="projects">
     <div class="container">
@@ -392,30 +454,9 @@
       <div class="row">
         <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 project">
           <!--celular-->
-          <p class="fas fa-mobile-alt contact-icon margin-icon"></p>
-          <button type="button" class="btn btn-default btn-contact" data-toggle="modal" data-target="#phone">Celular</button>
+          <p class="fas fa-mobile-alt contact-icon "></p>
+          <p >Celular: +56995254063</p>
         </div>
-        <!-- Modal -->
-          <div id="phone" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-
-              <!-- Modal content-->
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">Fono</h4>
-                </div>
-                <div class="modal-body">
-                  <p>Celular: </p>
-                  <p>+56995254063</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default btn-project" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-
-            </div>
-          </div>
         <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 project">
           <!--mail-->
           <p class="far fa-envelope contact-icon"></p>
@@ -429,7 +470,7 @@
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">Email</h4>
+                  <h4 class="modal-title">Email a g.villalobo.m@gmail.com</h4>
                 </div>
                 <div class="modal-body">
                   <form action="mailto:g.villalobo.m@gmail.com" method="post" enctype="text/plain">
@@ -462,17 +503,40 @@
         <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 project">
           <!--skype-->
           <p class="fab fa-skype contact-icon"></p>
-          <button type="button" class="btn btn-default btn-contact">Skype</button>
+          <button type="button" class="btn btn-default btn-contact" data-toggle="modal" data-target="#skype">Skype</button>
         </div>
+           <!-- Modal -->
+          <div id="skype" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Email</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Pueden encontrarme por:</p>
+                  <ul>
+                    <li>Genoveva Villablanca</li>
+                    <br>
+                    <li>g.villalobo.m@gmail.com</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default btn-project" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 project">
           <!--github-->
           <p class="fab fa-github contact-icon"></p>
           <button type="button" class="btn btn-default btn-contact" onclick="window.location.href='https://github.com/gvillablanca'">Github</button>
         </div>
         <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 project">
-          <!--descargar cv-->
-          <p class="far fa-file-alt contact-icon margin-icon"></p>
-          <button type="button" class="btn btn-default btn-contact" onclick="window.location.href='http://download1514.mediafire.com/dx9mw4wk7hsg/484dedmst1mzfdp/Genoveva+Villablanca+Villalobo.pdf'">DESCARGAR CV</button>
+          <!--descargar cv-->          
+          <a href="assets/docs/Genoveva Villablanca Villalobo.pdf" download=""> <p class="far fa-file-alt contact-icon"></p></a>
+          <p class="text-center">Descargar CV</p>
         </div>
       </div>
     </div>
@@ -485,8 +549,7 @@
           <p class="text-center">Desarrollado por Genoveva Villablanca | Laboratoria 2018</p>
         </div>
       </div>
-    </div>
-    
+    </div>    
   </footer>
 
   <!-- scripts -->
@@ -498,3 +561,4 @@
   
 </body>
 </html>
+
