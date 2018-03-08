@@ -2,17 +2,18 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Genoveva Villablanca</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"> 
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="assets/css/mediaQuery.css">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
   <!-- header -->
-   <header>
     <nav class="navbar navbar-fixed-top">
       <nav class="navbar navbar-default">
         <div class="container">
@@ -36,7 +37,6 @@
         </div>
       </nav>
     </nav>
-  </header>
   <!-- s1 -->
   <h1 class="hidden-xs hidden-sm">Girl of the TECHNOLOGY!!!</h1>
   <section id="home" class="img-head hidden-xs hidden-sm">
@@ -52,7 +52,7 @@
   <!-- boton volver inicio movil-->
   <span class="ir-arriba2 glyphicon glyphicon-menu-up hidden-lg hidden-md"></span>
   <!-- s2 -->
-  <section id="about">
+  <section id="about" class="hidden-xs hidden-sm">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
@@ -65,18 +65,35 @@
           <img src="assets/img/profile.jpg" alt="" class="img-circle hidden-md hidden-lg center-block">
         </div>
         <div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
-          <h4>Soy Genoveva Villablanca – Front-end Junior</h4>
-          <p class="description">Tengo 25 años y me encanta la Tecnología, la robótica y temas relacionados con la programación, por lo mismo, estudié Ingeniería de Ejecución en Informática y actualmente me estoy formando como Front-end developer junior.
+          <p class="text-center"></p>
+          <p class="description text-center">
+              Soy Genoveva Villablanca – Front-end Junior <br>
+            Tengo 25 años y me encanta la Tecnología, la robótica y temas relacionados con la programación, por lo mismo, estudié Ingeniería de Ejecución en Informática y actualmente me estoy formando como Front-end developer junior.
           He trabajado bajo la metodología Ágil, la cual me ha ayudado a convertirme en una persona más eficiente en los distintos grupos de trabajo en los que he participado.
           Tengo muchas ganas de continuar aprendiendo lo que me apasiona, por lo que siempre estoy en la búsqueda de nuevos conocimientos y lecturas que puedan ayudar a formarme como una mejor profesional.</p>
-          <br>
-          <br>
-          <br>
-          <br>
-          <h3>Menciones Laboratoria</h3>
-          <img src="assets/img/proactiva.png" alt="" class="img-circle mencion font-white hidden-xs hidden-sm">
-          <img src="assets/img/proactiva.png" alt="" class="img-circle mencion2  font-white hidden-md hidden-lg">
-          <p>Mención otorgada a alumnas que sorprenden realizando más de lo que se pide.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about2" class="hidden-md hidden-lg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+          <h2>Acerca de mi</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+          <img src="assets/img/profile.jpg" alt="" class="img-circle hidden-xs hidden-sm">
+          <img src="assets/img/profile.jpg" alt="" class="img-circle hidden-md hidden-lg center-block">
+        </div>
+        <div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
+          <p class="text-center"></p>
+          <p class="description text-center">
+              Soy Genoveva Villablanca – Front-end Junior <br>
+            Tengo 25 años y me encanta la Tecnología, la robótica y temas relacionados con la programación, por lo mismo, estudié Ingeniería de Ejecución en Informática y actualmente me estoy formando como Front-end developer junior.
+          He trabajado bajo la metodología Ágil, la cual me ha ayudado a convertirme en una persona más eficiente en los distintos grupos de trabajo en los que he participado.
+          Tengo muchas ganas de continuar aprendiendo lo que me apasiona, por lo que siempre estoy en la búsqueda de nuevos conocimientos y lecturas que puedan ayudar a formarme como una mejor profesional.</p>
         </div>
       </div>
     </div>
@@ -92,57 +109,57 @@
       </div>
       <div class="row margin-top">
         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-          <i class="devicon-babel-plain"></i>
+          <i class="devicon-babel-plain icon-skill"></i>
           <label for="">BABEL</label>
         </div>
         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-          <i class="devicon-bootstrap-plain"></i>
+          <i class="devicon-bootstrap-plain icon-skill"></i>
           <label for="">BOOTSTRAP</label>
         </div>
         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-          <i class="devicon-css3-plain"></i>
+          <i class="devicon-css3-plain icon-skill"></i>
           <label for="">CSS3</label>
         </div>
       </div>
       <div class="row margin-top">
         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-          <i class="devicon-git-plain"></i>
+          <i class="devicon-git-plain icon-skill"></i>
           <label for="">GIT</label>
         </div>
         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-          <i class="devicon-github-plain"></i>
+          <i class="devicon-github-plain icon-skill"></i>
           <label for="">GITHUB</label>
         </div>
         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12"> 
-          <i class="devicon-html5-plain"></i>
+          <i class="devicon-html5-plain icon-skill"></i>
           <label for="">HTML5</label>
         </div>
       </div>
       <div class="row margin-top">
         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-          <i class="devicon-javascript-plain"></i>
+          <i class="devicon-javascript-plain icon-skill"></i>
           <label for="">JAVASCRIPT</label>
         </div>
         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-          <i class="devicon-jquery-plain"></i>
+          <i class="devicon-jquery-plain icon-skill"></i>
           <label for="">JQUERY</label>
         </div>
         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-           <i class="devicon-mocha-plain"></i>
+           <i class="devicon-mocha-plain icon-skill"></i>
            <label for="">MOCHA</label>
         </div>
       </div>
       <div class="row margin-top margin-botom">
         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-          <i class="devicon-nodejs-plain"></i>
+          <i class="devicon-nodejs-plain icon-skill"></i>
           <label for="">NODE.JS</label>
         </div>
         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-          <i class="devicon-react-original"></i>
+          <i class="devicon-react-original icon-skill"></i>
           <label for="">REACT</label>
         </div>
         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-          <i class="devicon-sass-original"></i>
+          <i class="devicon-sass-original icon-skill"></i>
           <label for="">SASS</label>
         </div>
       </div>
@@ -150,48 +167,33 @@
   </section>
 
   <!-- s3 movil-->
-    <section id="skill" class="hidden-md hidden-lg">
+    <section id="skillMovil" class="hidden-md hidden-lg">
       <div class="container">
          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">            
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                  <i class="devicon-babel-plain margin-icon"></i>
+                  <i class="devicon-babel-plain margin-icon2 icon-skill display"></i>
+                  <i class="devicon-bootstrap-plain margin-icon2 icon-skill display"></i>
+                </div>
+                <div class="item">                  
+                  <i class="devicon-css3-plain margin-icon2 icon-skill display"></i>
+                  <i class="devicon-git-plain margin-icon2 icon-skill display"></i>
+                </div>
+                <div class="item">                  
+                  <i class="devicon-github-plain margin-icon2 icon-skill display"></i>
+                  <i class="devicon-html5-plain margin-icon2 icon-skill display"></i>
+                </div>
+                <div class="item">                  
+                  <i class="devicon-javascript-plain margin-icon2 icon-skill display"></i> 
+                  <i class="devicon-jquery-plain margin-icon2 icon-skill display"></i>
+                </div>
+                <div class="item">                  
+                  <i class="devicon-mocha-plain margin-icon2 icon-skill display"></i>
+                  <i class="devicon-nodejs-plain margin-icon2 icon-skill display"></i>
                 </div>
                 <div class="item">
-                  <i class="devicon-bootstrap-plain margin-icon"></i>
-                </div>
-                <div class="item">
-                  <i class="devicon-css3-plain margin-icon"></i>
-                </div>
-                <div class="item">
-                  <i class="devicon-git-plain margin-icon"></i>
-                </div>
-                <div class="item">
-                  <i class="devicon-github-plain margin-icon"></i>
-                </div>
-                <div class="item">
-                  <i class="devicon-html5-plain margin-icon"></i>
-                </div>
-                <div class="item">
-                  <i class="devicon-html5-plain margin-icon"></i>
-                </div>
-                <div class="item">
-                  <i class="devicon-javascript-plain margin-icon"></i> 
-                </div>
-                <div class="item">
-                  <i class="devicon-jquery-plain margin-icon"></i>
-                </div>
-                <div class="item">
-                  <i class="devicon-mocha-plain margin-icon"></i>
-                </div>
-                <div class="item">
-                  <i class="devicon-nodejs-plain margin-icon"></i>
-                </div>
-                <div class="item">
-                  <i class="devicon-react-original margin-icon"></i>
-                </div>
-                <div class="item">
-                  <i class="devicon-sass-original margin-icon"></i>
+                  <i class="devicon-react-original margin-icon2 icon-skill display"></i>
+                  <i class="devicon-sass-original margin-icon2 icon-skill display"></i>
                 </div>             
               </div>
               <!-- Left and right controls -->
@@ -234,6 +236,11 @@
                           <li>Boostrap</li>
                           <li>API google maps</li>
                         </ul>
+                        <p>Links:</p>
+                        <ul>
+                          <li><button type="button" class="btn btn-default btn-project demo1" onclick="window.location.href='https://gvillablanca.github.io/Easy-vreco-2.0/'">DEMO</button></li>
+                          <li><button type="button" class="btn btn-default btn-project git1" onclick="window.location.href='https://github.com/gvillablanca/Easy-vreco-2.0'">GITHUB</button></li>
+                        </ul>           
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-default btn-contact" data-dismiss="modal">Close</button>
@@ -243,12 +250,6 @@
                 </div>
               <!--proyecto -->
               <img src="assets/img/easyvreco.png" alt="" class="img-thumbnail center-block img-project" data-toggle="modal" data-target="#proyect1">
-            </div>            
-          </div>
-          <div class="row">
-            <div class="col-lg-12 col-xs-12 col-sm-12 btn-project-group">
-             <button type="button" class="btn btn-default btn-project demo1" onclick="window.location.href='https://gvillablanca.github.io/Easy-vreco-2.0/'">DEMO</button>
-              <button type="button" class="btn btn-default btn-project git1" onclick="window.location.href='https://github.com/gvillablanca/Easy-vreco-2.0'">GITHUB</button> 
             </div>            
           </div>
         </div>
@@ -272,6 +273,11 @@
                           <li>Boostrap</li>
                           <li>API opentdb.com</li>
                         </ul>
+                        <p>Links:</p>
+                        <ul>
+                          <li><button type="button" class="btn btn-default btn-project demo2" onclick="window.location.href='https://gvillablanca.github.io/trivia/'">DEMO</button></li>
+                          <li><button type="button" class="btn btn-default btn-project git2" onclick="window.location.href='https://github.com/gvillablanca/trivia'">GITHUB</button> </li>
+                        </ul>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-default btn-contact" data-dismiss="modal">Close</button>
@@ -281,12 +287,6 @@
                 </div>
               <!--proyecto -->
               <img src="assets/img/trivia.png" alt="" class="img-thumbnail center-block img-project" data-toggle="modal" data-target="#proyect2">
-            </div>            
-          </div>
-          <div class="row">
-            <div class="col-lg-12 col-xs-12 col-sm-12 btn-project-group">
-             <button type="button" class="btn btn-default btn-project demo2" onclick="window.location.href='https://gvillablanca.github.io/trivia/'">DEMO</button>
-              <button type="button" class="btn btn-default btn-project git2" onclick="window.location.href='https://github.com/gvillablanca/trivia'">GITHUB</button> 
             </div>            
           </div>
         </div>
@@ -310,6 +310,11 @@
                           <li>NPM</li>
                           <li>VanillaJS</li>
                         </ul>
+                        <p>Links:</p>
+                        <ul>
+                          <li><button type="button" class="btn btn-default btn-project demo3" onclick="window.location.href='https://gvillablanca.github.io/filter-library/'">DEMO</button></li>
+                          <li><button type="button" class="btn btn-default btn-project git3" onclick="window.location.href='https://github.com/gvillablanca/filter-library'">GITHUB</button> </li>
+                        </ul>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-default btn-contact" data-dismiss="modal">Close</button>
@@ -319,12 +324,6 @@
                 </div>
               <!--proyecto -->
               <img src="assets/img/filter.png" alt="" class="img-thumbnail center-block img-project" data-toggle="modal" data-target="#proyect3">
-            </div>            
-          </div>
-          <div class="row">
-            <div class="col-lg-12 col-xs-12 col-sm-12 btn-project-group">
-             <button type="button" class="btn btn-default btn-project demo3" onclick="window.location.href='https://gvillablanca.github.io/filter-library/'">DEMO</button>
-              <button type="button" class="btn btn-default btn-project git3" onclick="window.location.href='https://github.com/gvillablanca/filter-library'">GITHUB</button> 
             </div>            
           </div>
         </div>
@@ -349,6 +348,11 @@
                           <li>Boostrap</li>
                           <li>Jquery</li>
                         </ul>
+                        <p>Links:</p>
+                        <ul>
+                          <li><button type="button" class="btn btn-default btn-project demo4" onclick="window.location.href='https://gvillablanca.github.io/labcar/'">DEMO</button></li>
+                          <li><button type="button" class="btn btn-default btn-project git4" onclick="window.location.href='https://github.com/gvillablanca/labcar'">GITHUB</button> </li>
+                        </ul>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-default btn-contact" data-dismiss="modal">Close</button>
@@ -358,12 +362,6 @@
                 </div>           
               <!--proyecto -->
               <img src="assets/img/labcar.png" class="img-thumbnail center-block img-project" data-toggle="modal" data-target="#proyect4">             
-            </div>            
-          </div>
-          <div class="row">
-            <div class="col-lg-12 col-xs-12 col-sm-12 btn-project-group">
-             <button type="button" class="btn btn-default btn-project demo4" onclick="window.location.href='https://gvillablanca.github.io/labcar/'">DEMO</button>
-              <button type="button" class="btn btn-default btn-project git4" onclick="window.location.href='https://github.com/gvillablanca/labcar'">GITHUB</button> 
             </div>            
           </div>
         </div>
@@ -386,6 +384,11 @@
                           <li>Boostrap</li>
                           <li>Jquery</li>
                         </ul>
+                        <p>Links:</p>
+                        <ul>
+                          <li><button type="button" class="btn btn-default btn-project demo5" onclick="window.location.href='https://gvillablanca.github.io/foodmap/'">DEMO</button></li>
+                          <li><button type="button" class="btn btn-default btn-project git5" onclick="window.location.href='https://github.com/gvillablanca/foodmap'">GITHUB</button> </li>
+                        </ul>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-default btn-contact" data-dismiss="modal">Close</button>
@@ -395,12 +398,6 @@
                 </div>         
               <!--proyecto -->
               <img src="assets/img/foodmap.png" alt="" class="img-thumbnail center-block img-project" data-toggle="modal" data-target="#proyect5">
-            </div>            
-          </div>
-          <div class="row">
-            <div class="col-lg-12 col-xs-12 col-sm-12  btn-project-group">
-             <button type="button" class="btn btn-default btn-project demo5" onclick="window.location.href='https://gvillablanca.github.io/foodmap/'">DEMO</button>
-              <button type="button" class="btn btn-default btn-project git5" onclick="window.location.href='https://github.com/gvillablanca/foodmap'">GITHUB</button> 
             </div>            
           </div>
         </div>
@@ -422,6 +419,11 @@
                         <ul>
                           <li>Materialize</li>
                         </ul>
+                        <p>Links:</p>
+                        <ul>
+                          <li><button type="button" class="btn btn-default btn-project demo6" onclick="window.location.href='https://gvillablanca.github.io/i-love-panda-materialize/'">DEMO</button></li>
+                          <li><button type="button" class="btn btn-default btn-project git6" onclick="window.location.href='https://github.com/gvillablanca/i-love-panda-materialize'">GITHUB</button> </li>
+                        </ul>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-default btn-contact" data-dismiss="modal">Close</button>
@@ -431,12 +433,6 @@
                 </div>
               <!--proyecto -->
               <img src="assets/img/ilovepanda.png" alt="" class="img-thumbnail center-block img-project" data-toggle="modal" data-target="#proyect6">
-            </div>            
-          </div>
-          <div class="row">
-            <div class="col-lg-12 col-xs-12 col-sm-12 btn-project-group">
-             <button type="button" class="btn btn-default btn-project demo6" onclick="window.location.href='https://gvillablanca.github.io/i-love-panda-materialize/'">DEMO</button>
-              <button type="button" class="btn btn-default btn-project git6" onclick="window.location.href='https://github.com/gvillablanca/i-love-panda-materialize'">GITHUB</button> 
             </div>            
           </div>
         </div>
@@ -452,15 +448,33 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 project">
+        <div class="col-lg-4 col-md-4 col-xs-6 col-sm-6 project">
           <!--celular-->
-          <p class="fas fa-mobile-alt contact-icon "></p>
-          <p >Celular: +56995254063</p>
+          <p class="fas fa-mobile-alt contact-icon margin-icon2" data-toggle="modal" data-target="#phone"></p>
+          <p class="hidden-sm hidden-xs text-center">Celular: +56995254063</p>
         </div>
-        <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 project">
+        <!-- Modal -->
+          <div id="phone" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Email</h4>
+                </div>
+                <div class="modal-body">
+                  <p >+56995254063</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default btn-project" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="col-lg-4 col-md-4 col-xs-6 col-sm-6 project">
           <!--mail-->
-          <p class="far fa-envelope contact-icon"></p>
-          <button type="button" class="btn btn-default btn-contact" data-toggle="modal" data-target="#mail">E-mail</button>
+          <p class="far fa-envelope contact-icon margin-icon2" data-toggle="modal" data-target="#mail"></p>
+          <button type="button" class="btn btn-default btn-contact hidden-sm hidden-xs" data-toggle="modal" data-target="#mail" >E-mail</button>
         </div>
         <!-- Modal -->
           <div id="mail" class="modal fade" role="dialog">
@@ -495,15 +509,16 @@
 
             </div>
           </div>
-        <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 project">
+        <div class="col-lg-4 col-md-4 col-xs-6 col-sm-6 project">
           <!--linkedin-->
-          <p class="fab fa-linkedin-in contact-icon"></p>
-          <button type="button" class="btn btn-default btn-contact" onclick="window.location.href='https://www.linkedin.com/in/genoveva-villablanca-villalobo/'">Linkedin</button>
+          <p class="fab fa-linkedin-in contact-icon margin-icon2" onclick="window.location.href='https://www.linkedin.com/in/genoveva-villablanca-villalobo/'"></p>
+          <button type="button" class="btn btn-default btn-contact hidden-xs hidden-sm" onclick="window.location.href='https://www.linkedin.com/in/genoveva-villablanca-villalobo/'" target="_blank">Linkedin</button>
         </div>
-        <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 project">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-xs-6 col-sm-6 project">
           <!--skype-->
-          <p class="fab fa-skype contact-icon"></p>
-          <button type="button" class="btn btn-default btn-contact" data-toggle="modal" data-target="#skype">Skype</button>
+          <p class="fab fa-skype contact-icon margin-icon2 " data-toggle="modal" data-target="#skype"></p>
+          <button type="button" class="btn btn-default btn-contact hidden-xs hidden-sm" data-toggle="modal" data-target="#skype">Skype</button>
         </div>
            <!-- Modal -->
           <div id="skype" class="modal fade" role="dialog">
@@ -528,15 +543,16 @@
               </div>
             </div>
           </div>
-        <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 project">
+        <div class="col-lg-4 col-md-4 col-xs-6 col-sm-6 project">
           <!--github-->
-          <p class="fab fa-github contact-icon"></p>
-          <button type="button" class="btn btn-default btn-contact" onclick="window.location.href='https://github.com/gvillablanca'">Github</button>
+          <p class="fab fa-github contact-icon margin-icon2" onclick="window.location.href='https://github.com/gvillablanca'"></p>
+          <button type="button" class="btn btn-default btn-contact hidden-xs hidden-sm" onclick="window.location.href='https://github.com/gvillablanca'" target="nventana">Github</button>
         </div>
-        <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 project">
+        <div class="col-lg-4 col-md-4 col-xs-6 col-sm-6 project">
           <!--descargar cv-->          
-          <a href="assets/docs/Genoveva Villablanca Villalobo.pdf" download=""> <p class="far fa-file-alt contact-icon"></p></a>
-          <p class="text-center">Descargar CV</p>
+          <a href="assets/docs/Genoveva Villablanca Villalobo.pdf" download=""><p class="far fa-file-alt contact-icon margin-icon2"></p></a>
+          <p class="text-center hidden-xs hidden-sm">Descargar CV</p>
+        </div>
         </div>
       </div>
     </div>
@@ -546,7 +562,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-          <p class="text-center">Desarrollado por Genoveva Villablanca | Laboratoria 2018</p>
+          <p class="text-center ">Desarrollado por Genoveva Villablanca | Laboratoria 2018</p>
         </div>
       </div>
     </div>    

@@ -1,5 +1,10 @@
-//boton de volver a inicio
 $(document).ready(function(){ 
+$('elemento-a-animar').smoove(options);
+
+$('section').smoove({offset:'40%'});
+
+
+//boton de volver a inicio
   $('.ir-arriba').click(function(){
     $('body, html').animate({
       scrollTop: '0px'
@@ -32,3 +37,7 @@ $(document).ready(function(){
   }); 
 
 });
+
+function procesar(xform){
+  window.open(xform, 'nventana', 'width=450,height=300,status=yes,resizable=yes,scrollbars=yes');
+}
