@@ -103,7 +103,9 @@ p{
 }
 h2{
   text-align: center;
-  padding-bottom: 3%; 
+  padding-bottom: 4%; 
+  padding-top: 4%;
+  text-decoration: underline;
 }
 section{
   border-bottom: 6px solid #256051;
@@ -129,6 +131,11 @@ input, textarea{
   padding: 1%;
 }
 .description{
+  margin-top: 5%;
+  margin-right: 4%;
+  font-size: 20px;
+}
+.description2{
   margin-top: 5%;
   margin-right: 4%;
 }
