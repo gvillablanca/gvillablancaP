@@ -110,7 +110,7 @@ section{
   background-color:  #202D2D;
   color:#32F7BD ;
 }
-#home, #about, #skill, #contact{
+#home, #about, #skill, #contact, #contact2{
     height: 100vh;
 }
 #about2{
@@ -201,6 +201,9 @@ i:hover, label:hover{
 }
 .margin-icon2{
   margin-left: 35%;
+}
+.margin-bot{
+  padding-bottom: 15%;
 }
 footer{
   background-color: #1F2225;
