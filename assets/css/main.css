@@ -171,6 +171,7 @@ i:hover, label:hover{
 .img-project:hover{
   border:6px solid #FF2B57;
   filter: brightness(20%) blur(1px);
+  cursor:pointer;
 }
 .btn-project{
   border:1px solid #32F7BD;
@@ -178,6 +179,24 @@ i:hover, label:hover{
   color:#32F7BD;
   width: 39%;
   margin-left: 7%;
+}
+.false-btn{
+  border:1px solid #32F7BD;
+  background-color: #256051;
+  color:#32F7BD;
+  margin-left: 7%;
+  padding: 2%;
+  padding-left: 15%;
+  padding-right: 15%;
+  border-radius: 5px;
+}
+.li-btn{
+  margin-bottom:4%;
+}
+.false-btn:hover{
+  border:1px solid #FF2B57;
+  background-color: #256051;
+  color:#FF2B57;
 }
 .btn-default:hover{
   border:1px solid #FF2B57;

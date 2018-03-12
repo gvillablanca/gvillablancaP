@@ -36,10 +36,8 @@ $(document).ready(function(){
       $('.ir-arriba').slideUp(300);
     }
   }); 
-});
 
-//boton de volver a inicio movile
-$(document).ready(function(){ 
+  //boton de volver a inicio movile
   $('.ir-arriba2').click(function(){
     $('body, html').animate({
       scrollTop: '0px'
@@ -54,5 +52,9 @@ $(document).ready(function(){
     }
   }); 
 
+  // tooltip
+    $('[data-toggle="tooltip"]').tooltip();
+
 });
+
 
