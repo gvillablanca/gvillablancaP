@@ -51,9 +51,14 @@
 
   </section>
   <!-- boton volver inicio -->
-  <span class="ir-arriba glyphicon glyphicon-menu-up hidden-sm hidden-xs"></span>
+  <div >
+    <span class="ir-arriba glyphicon glyphicon-menu-up hidden-sm hidden-xs"></span>
+  </div>
+  
   <!-- boton volver inicio movil-->
-  <span class="ir-arriba2 glyphicon glyphicon-menu-up hidden-lg hidden-md"></span>
+  <div >
+    <span class="ir-arriba2 glyphicon glyphicon-menu-up hidden-lg hidden-md"></span>
+  </div>  
   <!-- s2 -->
   <section id="about" class="hidden-xs hidden-sm">
     <div class="container">
@@ -93,7 +98,7 @@
         </div>
         <div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
           <p class="text-center"></p>
-          <p class="description2 text-center">
+          <p class="description2 text-left">
               Soy Genoveva Villablanca – Front-end Junior <br>
             Tengo 25 años y me encanta la Tecnología, la robótica y temas relacionados con la programación, por lo mismo, estudié Ingeniería de Ejecución en Informática y actualmente me estoy formando como Front-end developer junior.
           He trabajado bajo la metodología Ágil, la cual me ha ayudado a convertirme en una persona más eficiente en los distintos grupos de trabajo en los que he participado.
@@ -113,7 +118,6 @@
       </div>
       <div class="row margin-top">
         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-          <i class="devicon-babel-plain icon-skill" data-toggle="tooltip" data-placement="top" title="Babel es una herramienta que te ayuda a escribir código en la última versión de JavaScript. Cuando sus entornos compatibles no admiten ciertas características de forma nativa, Babel lo ayudará a compilar esas características hasta una versión compatible."></i>
           <label for="">BABEL</label>
         </div>
         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
@@ -173,6 +177,11 @@
   <!-- s3 movil-->
     <section id="skillMovil" class="hidden-md hidden-lg">
       <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+              <h2>Habilidades</h2>
+            </div>
+          </div>
          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">            
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
@@ -443,7 +452,9 @@
       </div>
     </div>
   </section>
+
   <!-- s5 -->
+ <!-- s5 -->
   <section id="contact" class="hidden-xs hidden-sm">
     <div class="container">
       <div class="row">
@@ -562,117 +573,131 @@
     </div>
   </section>
 
-    <!-- s5 movil-->
-  <section id="contact2" class="hidden-lg hidden-md">
+  <!-- s5 movil-->
+  <section id="contact" class="hidden-lg hidden-md">
     <div class="container">
+      <!-- titulo-->
       <div class="row">
         <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-          <h2 class="margin-bot">Contacto</h2>
+          <h2>Contacto</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-xs-6 col-sm-6 project margin-bot">
+      
+      <!-- 1 row-->
+      <div class="row" class="margin-bot">
+        <div class="col-xs-6 col-sm-6 margin-bot">
           <!--celular-->
           <p class="fas fa-mobile-alt contact-icon margin-icon2" data-toggle="modal" data-target="#phone"></p>
         </div>
         <!-- Modal -->
-          <div id="phone" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-              <!-- Modal content-->
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">Email</h4>
-                </div>
-                <div class="modal-body">
-                  <p >+56995254063</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default btn-project" data-dismiss="modal">Close</button>
-                </div>
+        <div id="phone" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Email</h4>
+              </div>
+              <div class="modal-body">
+                <p >+56995254063</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-project" data-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
-        <div class="col-lg-4 col-md-4 col-xs-6 col-sm-6 project margin-bot">
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-xs-6 col-sm-6 margin-bot">
           <!--mail-->
           <p class="far fa-envelope contact-icon margin-icon2" data-toggle="modal" data-target="#mail"></p>
         </div>
         <!-- Modal -->
-          <div id="mail" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-              <!-- Modal content-->
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">Email a g.villalobo.m@gmail.com</h4>
-                </div>
-                <div class="modal-body">
-                  <form action="mailto:g.villalobo.m@gmail.com" method="post" enctype="text/plain">
-                    <br>
-                    <label for="">Nombre: </label> <br>
-                    <input type="text" name="name"><br>
-                    <br>
-                    <label for="">E-mail: </label><br>
-                    <input type="text" name="mail"><br>
-                    <br>
-                    <label for="">Contenido: </label><br>
-                    <textarea name="" name="comment" id="" size="50" cols="60" rows="10"></textarea>
-                    <br><br>
-                    <input type="submit" value="Enviar" class="btn btn-default btn-project">
-                    <input type="reset" value="Limpiar" class="btn btn-default btn-project">
-                  </form>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default btn-project" data-dismiss="modal">Close</button>
-                </div>
+        <div id="mail" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Email a g.villalobo.m@gmail.com</h4>
+              </div>
+              <div class="modal-body">
+                <form action="mailto:g.villalobo.m@gmail.com" method="post" enctype="text/plain">
+                  <br>
+                  <label for="">Nombre: </label> <br>
+                  <input type="text" name="name"><br>
+                  <br>
+                  <label for="">E-mail: </label><br>
+                  <input type="text" name="mail"><br>
+                  <br>
+                  <label for="">Contenido: </label><br>
+                  <textarea name="" name="comment" id="" size="50" cols="40" rows="10"></textarea>
+                  <br><br>
+                  <input type="submit" value="Enviar" class="btn btn-default btn-project">
+                  <input type="reset" value="Limpiar" class="btn btn-default btn-project">
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-project" data-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
-        <div class="col-lg-4 col-md-4 col-xs-6 col-sm-6 project margin-bot">
+        </div>
+      </div>
+
+       <!-- 2 row-->
+       <div class="row" class="">
+        <div class="col-xs-6 col-sm-6 project margin-bot">
           <!--linkedin-->
-          <a href="https://www.linkedin.com/in/genoveva-villablanca-villalobo/" target="_blank"><p class="fab fa-linkedin-in contact-icon margin-icon2"></p></a>          
+          <a href="https://www.linkedin.com/in/genoveva-villablanca-villalobo/" target="_blank"><p class="fab fa-linkedin-in contact-icon margin-icon2"></p></a>
+          <a href="https://www.linkedin.com/in/genoveva-villablanca-villalobo/" class="false-btn btn btn-default btn-contact hidden-xs hidden-sm" target="_blank">Linkedin</a>
         </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-xs-6 col-sm-6 project margin-bot">
+        <div class="col-xs-6 col-sm-6 container margin-bot">
           <!--skype-->
-          <p class="fab fa-skype contact-icon margin-icon2" data-toggle="modal" data-target="#skype"></p>
+          <p class="fab fa-skype contact-icon margin-icon2 " data-toggle="modal" data-target="#skype"></p>
         </div>
-           <!-- Modal -->
-          <div id="skype" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-              <!-- Modal content-->
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">Email</h4>
-                </div>
-                <div class="modal-body">
-                  <p>Pueden encontrarme por:</p>
-                  <ul>
-                    <li>Genoveva Villablanca</li>
-                    <br>
-                    <li>g.villalobo.m@gmail.com</li>
-                  </ul>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default btn-project" data-dismiss="modal">Close</button>
-                </div>
+        <!-- Modal -->
+        <div id="skype" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Email</h4>
+              </div>
+              <div class="modal-body">
+                <p>Pueden encontrarme por:</p>
+                <ul>
+                  <li>Genoveva Villablanca</li>
+                  <br>
+                  <li>g.villalobo.m@gmail.com</li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-project" data-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
-        <div class="col-lg-4 col-md-4 col-xs-6 col-sm-6 project margin-bot">
-          <!--github-->
-          <a href="https://github.com/gvillablanca" target="_blank"><p class="fab fa-github contact-icon margin-icon2"></p></a>
         </div>
-        <div class="col-lg-4 col-md-4 col-xs-6 col-sm-6 project">
-          <!--descargar cv-->          
-          <a href="assets/docs/Genoveva Villablanca Villalobo.pdf" download=""><p class="far fa-file-alt contact-icon margin-icon2"></p></a>
-          <p class="text-center hidden-xs hidden-sm">Descargar CV</p>
-        </div>
+      </div>
+
+      <!-- 3 row-->
+        <div class="row" class="margin-bot">
+          <div class="col-xs-6 col-sm-6 project">
+            <!--github-->
+            <a href="https://github.com/gvillablanca" target="_blank"><p class="fab fa-github contact-icon margin-icon2"></p></a>
+            <a href="https://github.com/gvillablanca" class="false-btn btn btn-default btn-contact hidden-xs hidden-sm" target="_blank">Github</a>
+          </div>
+          <div class="col-xs-6 col-sm-6 project">
+            <!--descargar cv-->          
+            <a href="assets/docs/Genoveva Villablanca Villalobo.pdf" download=""><p class="far fa-file-alt contact-icon margin-icon2"></p></a>
+            <p class="text-center hidden-xs hidden-sm">Descargar CV</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
+
   <!-- footer -->
   <footer>
     <div class="container">

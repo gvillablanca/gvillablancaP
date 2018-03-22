@@ -42,7 +42,7 @@
   border:1px solid #32F7BD;
   border-radius: 15px;
   position: fixed;
-  right: 10px;
+  right: 20px;
   z-index: 100;
 }
 .left, .right{
@@ -229,7 +229,7 @@ i:hover, label:hover{
   margin-left: 19%;
 }
 .margin-icon2{
-  margin-left: 35%;
+  margin-left: 30%;
 }
 .margin-bot{
   padding-bottom: 15%;
@@ -243,4 +243,7 @@ footer{
 }
 .display{
   display: inline-block;
+}
+.margin-bot{
+  margin-bottom:4%;
 }
