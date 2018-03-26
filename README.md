@@ -10,6 +10,11 @@ Ccontenido:
 + Proyectos
 + Contacto
 
+![Web desktop 1](assets/img/desktop-view1.png)
+![Web desktop 2](assets/img/desktop-view2.png)
+![Web desktop 3](assets/img/desktop-view3.png)
+![Movil](assets/img/movil.png)
+
 Entre las funcionalidades que tiene la web esta: 
 
 + Navbar al presionar las opciones redirecciona a las secciones correspondientes
